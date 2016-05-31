@@ -135,9 +135,16 @@ public class MainActivity extends AppCompatActivity
             ft.commit();
 
         } else if (id == R.id.Tour) {
-
+            fragment = new Tour();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.frame, fragment);
+            ft.commit();
 
         } else if (id == R.id.Hike) {
+            fragment = new Adventurousactivities();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.frame, fragment);
+            ft.commit();
 
         }
 

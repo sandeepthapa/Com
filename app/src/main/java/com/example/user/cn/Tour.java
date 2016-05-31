@@ -22,7 +22,7 @@ import java.util.Locale;
 
 
 
-public class Adventurousactivities extends Fragment implements ImageButton.OnClickListener, AdapterView.OnItemSelectedListener {
+public class Tour extends Fragment implements ImageButton.OnClickListener, AdapterView.OnItemSelectedListener {
     private String mParam1;
     private String mParam2;
     private TextView txtdate;
@@ -55,18 +55,10 @@ public class Adventurousactivities extends Fragment implements ImageButton.OnCli
 
         txtdate = (TextView) view.findViewById(R.id.txtappdate);
         txtdate.setInputType(InputType.TYPE_NULL);
-        String[]  AD =
-                {"Rockclimbing","paragliding","BUnjee Jump","Hanggliding",
-                        "ultraligh",
-                        "Mountainflight",   "Kiking"
-                        ,"White water Rafting"
-                        ,"Cannouying"
-                        ,"Mountain climbing"
-                        ,"zipline",
-                        "Golf",
-                        "HOrse Riding"};
+        String[] Tour =
+                {"Inbound", "Outbound"};
         Spinner spinner = (Spinner) view.findViewById(R.id.spinner);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_spinner_item, AD);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_spinner_item, Tour);
         adapter.setDropDownViewResource(android.R.layout.select_dialog_item);
         spinner.setAdapter(adapter);
         return view;

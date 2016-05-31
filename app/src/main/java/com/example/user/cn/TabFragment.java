@@ -85,11 +85,11 @@ public class TabFragment extends Fragment {
 
             switch (position){
                 case 0 :
-                    return "Primary";
+                    return "Pokhara";
                 case 1 :
-                    return "Social";
+                    return " Fewa Lake";
                 case 2 :
-                    return "Updates";
+                    return " Mardi Himal ";
             }
             return null;
         }

@@ -40,5 +40,28 @@
         <item>other</item>
 
     </string-array>
+    <string-array name="Tour">
+
+        <item>Inbound</item>
+        <item>Outbound</item>
+
+
+    </string-array>
+    <string-array name="AD">
+        <item>Rockclimbing</item>
+        <item>paragliding</item>
+        <item>BUnjee Jump</item>
+        <item>Hanggliding</item>
+        <item>ultralight</item>
+        <item>Mountainflight</item>
+        <item>Kiking</item>
+        <item>White water Rafting</item>
+        <item>Cannouying</item>
+        <item>Mountain climbing</item>
+        <item>zipline</item>
+        <item>Golf</item>
+        <item>HOrse Riding</item>
+
+    </string-array>
 
 </resources>
